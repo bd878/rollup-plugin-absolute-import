@@ -1,0 +1,8 @@
+{
+  "name": "rollup-plugin-absolute-import",
+  "version": "1.0.0",
+  "description": "Zero-dependency package that allows to import names absolutely, handles index files too",
+  "main": "index.js",
+  "author": "teralion",
+  "license": "WTFPL"
+}
