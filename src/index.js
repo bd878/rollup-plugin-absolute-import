@@ -35,7 +35,7 @@ function resolvePath(path, extensions) {
   return result;
 }
 
-function plugin(basedir, extensions = ['.ts', '.tsx', '.js', '.jsx', '.d.ts']) {
+function plugin(basedir = '.', extensions = ['.ts', '.tsx', '.js', '.jsx', '.d.ts']) {
   return {
     name: 'absolute-import-plugin',
     resolveId(source, origin) {
